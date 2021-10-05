@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js" defer></script>
+    <title>Quiz2 with T&M</title>
+</head>
+<body>
+    <!-- Start of quiz form -->
+    <div id="nameDiv">
+        <label for="name">Please enter your name</label>
+        <input type="text" id="name">
+    </div>
+
+    <div class="quizForm" id="quizForm">
+        <div class="quizHeader">
+            <label id="score" > Score : 0 </label>
+            <h2 id="question">Question....</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="a_text" value="a">
+                    <label for="a_text" id="option_a">Option a </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="b_text" value="b">
+                    <label for="b_text" id="option_b">Option b</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="c" value="c">
+                    <label for="c_text" id="option_c">Option c</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="d" value="d">
+                    <label for="d_text" id="option_d">Option d</label>
+                </li>
+
+            </ul>
+        </div> 
+        <!--End of quiz header  -->
+        
+        <button id="submit" >Submit</button>
+    
+    
+    </div>
+    <!--End of quiz container  -->
+   
+    
+</body>
+</html>
